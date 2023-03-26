@@ -12,7 +12,7 @@ public class Pieceworker extends Employee {
      * @param pieces
      */
     public Pieceworker(String first, String last, String ssn, double wage, int pieces) {
-        super(first, last, ssn);
+        super();
         this.wage = wage;
         this.pieces = pieces;
     }
@@ -46,6 +46,9 @@ public class Pieceworker extends Employee {
     }
 
     // calculate earnings; override abstract method earnings in Employee
+    /**
+     * @return
+     */
     @Override
     public double earnings() {
         return wage * pieces;
