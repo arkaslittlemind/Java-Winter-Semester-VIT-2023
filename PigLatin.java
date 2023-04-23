@@ -35,7 +35,7 @@ public class PigLatin {
         if (plstring1 == "-1")
             System.out.println("Pig Latin is not possible, the string must have at least a vowel.");
         else
-            System.out.println(plstring1);
+        System.out.println(plstring1);
         System.out.println(plstring2);
         System.out.println(plstring3);
         System.out.println(plstring4);
