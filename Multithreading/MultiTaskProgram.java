@@ -1,4 +1,4 @@
-public public class MultiTaskProgram {
+public class MultiTaskProgram {
     public static void main(String[] args) {
         TaskA taskA = new TaskA();
         TaskB taskB = new TaskB();
