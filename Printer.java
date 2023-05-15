@@ -1,4 +1,5 @@
 public class Printer <T>{
+    
     T thingToPrint;
 
     public Printer(T thingToPrint) {
@@ -8,4 +9,6 @@ public class Printer <T>{
     public void print() {
         System.out.println(thingToPrint);
     }
+
+    
 }

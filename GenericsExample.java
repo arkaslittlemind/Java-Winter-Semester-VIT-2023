@@ -5,5 +5,6 @@ public class GenericsExample {
 
         Printer<Double> doublePrinter = new Printer<>(23.7);
         doublePrinter.print();
+
+        }
     }
-}
