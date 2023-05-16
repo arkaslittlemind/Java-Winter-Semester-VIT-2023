@@ -17,14 +17,14 @@ class ExceptionB extends ExceptionA {
 public class excp {
     public static void main(String[] args) {
         try {
-            throw new ExceptionA("Exception A Occured");
+            throw new ExceptionA("Exception A Occurred");
         } catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
 
         }
 
         try {
-            throw new ExceptionB("Exception B Occured");
+            throw new ExceptionB("Exception B Occurred");
         } catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
 
@@ -38,8 +38,9 @@ public class excp {
 
         }
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("f1.txt"));
-            reader.readLine();
+            try (BufferedReader reader = new BufferedReader(new FileReader("f1.txt"))) {
+                reader.readLine();
+            }
         } catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
 
