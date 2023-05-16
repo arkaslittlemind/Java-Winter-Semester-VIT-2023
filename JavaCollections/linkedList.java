@@ -20,6 +20,10 @@ public class linkedList {
         }
         long start = System.currentTimeMillis();
 
+        // Add items at end of list
+        for(int i = 0; i < 1E5; i++) {
+            list.add(i);
+        }
         long end = System.currentTimeMillis();
 
         System.out.println("Time taken: " + (end - start) + " ms for " + type);
