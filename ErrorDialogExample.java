@@ -6,6 +6,4 @@ public class ErrorDialogExample {
         JOptionPane.showMessageDialog(null, "An error has occurred!", "Error", JOptionPane.ERROR_MESSAGE);
     }
 }
- {
-    
-}
+
