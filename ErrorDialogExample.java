@@ -1,4 +1,4 @@
-public import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
 
 public class ErrorDialogExample {
     public static void main(String[] args) {
