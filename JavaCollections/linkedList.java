@@ -7,8 +7,8 @@ import java.util.List;
 public class linkedList {
 
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<Integer>();
-        List<Integer> linkedList = new LinkedList<Integer>(); 
+        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> linkedList = new LinkedList<>();
         
         doTimings("ArrayList", arrayList);
         doTimings("LinkedList", linkedList);

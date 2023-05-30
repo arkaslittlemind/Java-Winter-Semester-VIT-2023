@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class arrayList {
     public static void main(String[] args) {
-       ArrayList<Integer> numbers = new ArrayList<Integer>();
+       ArrayList<Integer> numbers = new ArrayList<>();
 
        // Adding values
        numbers.add(10);
@@ -14,9 +14,9 @@ public class arrayList {
        System.out.println("Iteration Procedure #1");
 
        // Looping through arraylist
-       for (int i = 0; i < numbers.size(); i++) {
-              System.out.println(numbers.get(i));
-       }
+        for (Integer number : numbers) {
+            System.out.println(number);
+        }
        
        // Removing values
        numbers.remove(numbers.size() - 1);
